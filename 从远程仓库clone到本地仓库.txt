@@ -1,0 +1,2 @@
+1、SSH:打开Git GUI Here →git clone git@github.com:zdt0406/rep1.git（路径）；
+2、https:在.git上一级目录右键打开Git克隆→url：https://github.com/zdt0406/rep1.git，确定即可

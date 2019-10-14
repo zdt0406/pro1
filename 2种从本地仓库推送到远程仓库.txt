@@ -1,0 +1,10 @@
+打开Git Bash Here,首先生成一个秘钥盾：ssh-keygen -t rsa,所有命令默认回车，会安装在C:\Users\Administrator\.ssh；
+一、通过ssh建立链接(无需通过用户名和密码)
+1、GitHub→Settings→SSH and GPG keys→New SSH key→title随便起ssh-key，key：id_rsa.pub(C:\Users\Administrator\.ssh);
+2、打开Git Bash Here，   git remote add origin git@github.com:zdt0406/rop4.git→git push -u origin master；
+
+二、使用TortoiseGit建立链接（SSH方式）
+1、本地文件目录下右键点击GIT同步→管理→远端：origin；url:git@github.com:zdt0406/rop4.git→点击网络，找到ssh.exe，这个文件再Git安装目录下，C:\Program Files\Git\usr\bin\ssh.exe→远端，私有秘钥：C:\Users\Administrator\.ssh\id_rsa；→添加/保存，确定→推送
+
+三https建立链接 
+1、本地文件目录下点击右键，GIT同步→管理→远端：origin2，url:https://github.com/zdt0406/rop4.git→不要输入秘钥，因为每次推送都需要输入账号密码→点击推送，直接输入GitHub账号密码即可  账号：zdt0406  密码zhang199246
