@@ -1,3 +1,6 @@
+
+git bash 执行命令,生命公钥和私钥
+命令: ssh-keygen -t rsa
 打开Git Bash Here,首先生成一个秘钥盾：ssh-keygen -t rsa,所有命令默认回车，会安装在C:\Users\Administrator\.ssh；
 一、通过ssh建立链接(无需通过用户名和密码)
 1、GitHub→Settings→SSH and GPG keys→New SSH key→title随便起ssh-key，key：id_rsa.pub(C:\Users\Administrator\.ssh);
