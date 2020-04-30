@@ -28,6 +28,6 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.6.0",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
